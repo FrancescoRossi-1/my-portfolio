@@ -1,0 +1,71 @@
+.logo {
+  width: 15rem;
+  transition: transform 0.5s;
+}
+
+.logo:hover {
+  transform: rotate(5deg);
+}
+
+@media (max-width: 768px) {
+  .logo:active {
+    transform: none;
+  }
+}
+
+.button-primary-pers {
+  color: #27374D !important;
+  font-weight: bold !important;
+  background-color: white!important;
+  border: 1px solid #17202d !important;
+}
+
+.button-primary-pers:hover {
+  color:white;
+  background-color: #17202d!important;
+}
+
+.button-secondary-pers {
+  color: white !important;
+  font-weight: bold !important;
+  background-color: #27374D!important;
+  border: 1px solid #17202d !important;
+}
+
+.button-secondary-pers:hover {
+  color: #27374D;
+  background-color: #17202d!important;
+}
+
+.nav-active {
+  color:white !important;
+  background-color: #17202d!important;
+}
+
+.company-logo {
+  width: 15rem !important;
+}
+
+.project-logo {
+  max-height: 15rem !important;
+  max-width: 20rem !important;
+}
+
+.text-primary-pers {
+  font-size: 1.2rem;
+  color: #27374D;
+  font-weight: 500;
+}
+
+/* COLORI */
+.colore-primario {
+  background-color: #27374D !important;
+}
+
+.colore-secondario {
+  background-color: #526D82 !important;
+}
+
+.colore-terziario {
+  background-color: #9DB2BF !important;
+}
