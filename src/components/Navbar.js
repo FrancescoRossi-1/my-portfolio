@@ -22,7 +22,7 @@ const NavBar = ({ activeItem }) => {
                     </div>
                 </Link>
                 <div className="navbar-collapse justify-content-center">
-                    <div className="mt-2 text-center row d-flex">
+                    <div className="mt-2 text-center row d-flex w-100">
                         <div className="col-sm-4">
                             <Link
                                 className={`btn btn-primary rounded btn-lg me-lg-2 mb-2 mb-lg-0 button-primary-pers shadow-lg ${activeItem === ESPERIENZE_TAB ? 'nav-active' : ''
