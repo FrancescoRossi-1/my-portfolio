@@ -22,8 +22,8 @@ const NavBar = ({ activeItem }) => {
                     </div>
                 </Link>
                 <div className="navbar-collapse justify-content-center">
-                    <ul className="navbar-nav text-center text-lg-start">
-                        <li className="nav-item">
+                    <div className="mt-2 text-center row d-flex">
+                        <div className="col-sm-4">
                             <Link
                                 className={`btn btn-primary rounded btn-lg me-lg-2 mb-2 mb-lg-0 button-primary-pers shadow-lg ${activeItem === ESPERIENZE_TAB ? 'nav-active' : ''
                                     }`}
@@ -32,8 +32,8 @@ const NavBar = ({ activeItem }) => {
                             >
                                 Lavoro
                             </Link>
-                        </li>
-                        <li className="nav-item">
+                        </div>
+                        <div className="col-sm-4">
                             <Link
                                 className={`btn btn-primary rounded btn-lg me-lg-2 mb-2 mb-lg-0 button-primary-pers shadow-lg ${activeItem === CHISONO_TAB ? 'nav-active' : ''
                                     }`}
@@ -42,8 +42,8 @@ const NavBar = ({ activeItem }) => {
                             >
                                 Chi Sono
                             </Link>
-                        </li>
-                        <li className="nav-item">
+                        </div>
+                        <div className="nav-item col-sm-4">
                             <Link
                                 className={`btn btn-primary rounded btn-lg navbar-text button-primary-pers shadow-lg ${activeItem === CONTATTI_TAB ? 'nav-active' : ''
                                     }`}
@@ -52,8 +52,8 @@ const NavBar = ({ activeItem }) => {
                             >
                                 Contatti
                             </Link>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>

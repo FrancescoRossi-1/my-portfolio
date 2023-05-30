@@ -11,7 +11,7 @@ const projectsData = [
         image: pizzeriaImg,
         technologies: "React - Netlify - Google Places API - Bootstrap",
         description: "Template per un vero e proprio sito web di una pizzeria.",
-        url: "https://beamish-caramel-fc30b7.netlify.app/",
+        url: "https://lapizzeriatemplate.netlify.app/",
     },
     {
         id: 1,
