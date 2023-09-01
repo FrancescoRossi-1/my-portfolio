@@ -6,10 +6,10 @@ const workExperienceData = [
     id: 1,
     logo: LogoSistInf,
     company: 'Sistemi Informativi S.r.l.',
-    role: 'Java Developer',
+    role: 'Application Developer - Java & Web Technologies',
     startDate: '09/11/2022',
     endDate: 'IN CORSO',
-    description: 'Sviluppo e manutenzione di progetti per il cliente INPS.',
+    description: 'Sviluppatore software dedicato al cliente INPS. Le mie mansioni principali consistono nell\'analizzare, reingegnerizzare e sviluppare applicazioni web per soddisfare le esigenze specifiche del cliente. Durante questo ruolo, ho acquisito competenze nell\'utilizzo di diverse tecnologie, tra cui Java, JavaScript, Spring Boot, Spring MVC, HTML, CSS, Angular e Azure DevOps.',
   },
   {
     id: 2,

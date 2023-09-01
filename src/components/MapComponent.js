@@ -19,7 +19,7 @@ const MapComponent = () => {
         <div className="text-center">
             <div className="rounded"> 
                 <LoadScript googleMapsApiKey={apiKey}>
-                    <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={15}>
+                    <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={11}>
                         <Marker position={center} />
                     </GoogleMap>
                 </LoadScript>

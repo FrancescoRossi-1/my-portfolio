@@ -1,6 +1,5 @@
 import { FaFilePdf } from 'react-icons/fa';
 import CvIta from '../assets/pdf/CV_ROSSI_FRANCESCO.pdf';
-import CvEng from '../assets/pdf/CV_ROSSI_FRANCESCO_ENG.pdf';
 
 const WelcomeComponent = () => {
     return (
@@ -17,12 +16,6 @@ const WelcomeComponent = () => {
                     <button className="btn btn-primary button-secondary-pers" onClick={() => window.open(CvIta, "_blank")}>
                         <FaFilePdf className="me-2" />
                         Scarica CV in italiano
-                    </button>
-                </div>
-                <div className="col-sm-12 col-md-6 mb-3">
-                    <button className="btn btn-primary button-secondary-pers" onClick={() => window.open(CvEng, "_blank")}>
-                        <FaFilePdf className="me-2" />
-                        Download CV in english
                     </button>
                 </div>
             </div>

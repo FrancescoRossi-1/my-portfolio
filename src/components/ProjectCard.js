@@ -10,7 +10,7 @@ const ProjectCard = ({
     url,
 }) => {
     return (
-        <div className="card mb-5">
+        <div className="card">
             <img src={image} className="project-logo card-img-top img-fluid align-self-center" alt={name} />
             <div className="card-body border-top">
                 <h5 className="card-title"><strong>{name}</strong></h5>
