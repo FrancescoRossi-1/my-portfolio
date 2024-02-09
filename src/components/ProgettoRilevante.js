@@ -10,19 +10,19 @@ const ProgettoRilevante = () => {
             <div className="text-center">
               <h3 className="text-white">Il mio ultimo progetto</h3>
               <p className="text-white">
-                Esplora il mio lavoro più recente. Grazie alle ultime tecnologie disponibili sul mercato, ho cercato di creare un template per il sito web di una pizzeria. Accedi al sito web per scoprire quali risultati ho ottenuto.
+                Esplora il mio lavoro più recente. Grazie alle ultime tecnologie disponibili sul mercato, INPS ha deciso di creare un portale che possono usare sia i cittadini che tutte le prestazioni. Il portale SUGI è in grado di semplificare molti processi.
               </p>
             </div>
           </div>
           <div className="col-sm-12 col-lg-6 d-flex justify-content-center pt-2 pb-2 colore-primario">
             <ProjectCard
-              name={projectArray[0].name}
-              client={projectArray[0].client}
-              company={projectArray[0].company}
-              image={projectArray[0].image}
-              technologies={projectArray[0].technologies}
-              description={projectArray[0].description}
-              url={projectArray[0].url}
+              name={projectArray[6].name}
+              client={projectArray[6].client}
+              company={projectArray[6].company}
+              image={projectArray[6].image}
+              technologies={projectArray[6].technologies}
+              description={projectArray[6].description}
+              url={projectArray[6].url}
             />
           </div>
         </div>

@@ -49,6 +49,7 @@
 .project-logo {
   max-height: 8rem !important;
   max-width: 12rem !important;
+  object-fit: cover; 
 }
 
 .text-primary-pers {
@@ -68,4 +69,39 @@
 
 .colore-terziario {
   background-color: #9DB2BF !important;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.project-info {
+  text-align: left;
+}
+
+.project-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-details {
+  margin-bottom: 5px;
+}
+
+.project-description {
+  margin-bottom: 10px;
+}
+
+.project-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
 }

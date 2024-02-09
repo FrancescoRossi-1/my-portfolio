@@ -39,8 +39,8 @@ const projectsData = [
         client: "INPS",
         company: "Sistemi Informativi S.r.l.",
         image: InpsLogo,
-        technologies: "Java - Database Microsoft SQL - Database Oracle - Struts - SOAP",
-        description: "Manutenzione di un'applicazione per gli operatori INPS che consente di consultare tutte le prestazioni sociali erogate per: ENTE, BENEFICIARIO e PRESTAZIONE",
+        technologies: "Java - Database Microsoft SQL - Apache POI - Angular - Azure DevOps - Spring Boot - Store Procedure",
+        description: "Manutenzione e reingegnerizzazione in architettura microservizi Java Spring Boot di un'applicazione per gli operatori INPS che consente di consultare tutte le prestazioni sociali erogate per: ENTE, BENEFICIARIO e PRESTAZIONE",
         url: ""
     },
     {
@@ -61,6 +61,26 @@ const projectsData = [
         image: AdmLogo,
         technologies: "Java - Database Oracle - JSF - Primefaces - MyBatis",
         description: "Sviluppo di un'applicazione per viaggiatori che consente agli utenti di ottenere il rimborso dell'IVA sui beni acquistati.",
+        url: ""
+    },
+    {
+        id: 6,
+        name: "Nuovo SUGI",
+        client: "INPS",
+        company: "Sistemi Informativi S.r.l.",
+        image: InpsLogo,
+        technologies: "Java - Spring Boot - Artemis - JPA - Hibernate - Angular - Guava Cache - Azure DevOps - JUnit - Karma - Architettura a microservizi",
+        description: "Sviluppi BE ed FE per il progetto Nuovo SUGI, una grande piattaforma che consente espone alle prestazioni API, Maschere FE ed eventi Message Broker per poter gestire molto velocemente i pagamenti.",
+        url: "https://www.inps.it/content/inps-site/it/it/inps-comunica/notizie/dettaglio-news-page.news.2023.11.pnrr-operativo-il-progetto-cambio-ente-pagatore-.html"
+    },
+    {
+        id: 7,
+        name: "Microservizio Dati Pensioni",
+        client: "INPS",
+        company: "Sistemi Informativi S.r.l.",
+        image: InpsLogo,
+        technologies: "Java - Spring Boot - Artemis - JPA - Hibernate - Redis Caching - Azure DevOps - JUnit - Karma - Architettura a microservizi",
+        description: "Sviluppi BE di un microservizio che legge, converte ed espone dati per diverse applicazioni FE per operatori INPS",
         url: ""
     },
 ]

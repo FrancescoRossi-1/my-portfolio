@@ -10,16 +10,18 @@ const ProjectCard = ({
     url,
 }) => {
     return (
-        <div className="card">
-            <img src={image} className="project-logo card-img-top img-fluid align-self-center" alt={name} />
-            <div className="card-body border-top">
-                <h5 className="card-title"><strong>{name}</strong></h5>
-                <p className="card-text"> <strong>Cliente:</strong> {client}</p>
-                <p className="card-text"><strong>Azienda Datrice:</strong> {company}</p>
-                <p className="card-text"><strong>Tecnologie Utilizzate:</strong> {technologies}</p>
-                <p className="card-text">{description}</p>
+        <div className="project-card shadow">
+            <div className="row colore-terziario rounded d-flex justify-content-center align-items-center p-2 mb-3 w-100">
+                <h5 className="project-title col-sm-12 col-md-6 text-white">{name}</h5>
+                <img src={image} className="project-logo col-sm-12 col-md-6" alt={name} />
+            </div>
+            <div className="project-info">
+                <p className="project-details">Cliente: <strong> {client} </strong></p>
+                <p className="project-details">Azienda Datrice:<strong> {company} </strong> </p>
+                <p className="project-details">Tecnologie Utilizzate: <strong> {technologies} </strong></p>
+                <p className="project-description">{description}</p>
                 {url && (
-                    <a href={url} target="_blank" rel="noopener noreferrer">
+                    <a href={url} target="_blank" rel="noopener noreferrer" className="project-link">
                         Vai al progetto
                     </a>
                 )}
