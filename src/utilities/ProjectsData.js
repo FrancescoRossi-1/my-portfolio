@@ -4,37 +4,27 @@ import AdmLogo from '../assets/img/logo_adm.png'
 
 const projectsData = [
     {
-        id: 0,
-        name: "Sito Web Pizzeria",
-        client: "-",
-        company: "-",
-        image: pizzeriaImg,
-        technologies: "React - Netlify - Google Places API - Bootstrap",
-        description: "Template per un vero e proprio sito web di una pizzeria.",
-        url: "https://lapizzeriatemplate.netlify.app/",
-    },
-    {
-        id: 1,
-        name: "Cassetto Previdenziale Aziende Agricole",
+        id: 7,
+        name: "Microservizio Dati Pensioni",
         client: "INPS",
         company: "Sistemi Informativi S.r.l.",
         image: InpsLogo,
-        technologies: "Java - Spring MVC - Hibernate - JPA - Database Microsoft SQL - Database DB2 - JBOSS - SOAP - Bootstrap",
-        description: "Analisi, sviluppo, refactoring e porting su Application Server JBoss di un'applicazione già esistente. L'applicazione consente di consultare diversi dati relativi a prestazioni, cartelle esattoriali, lavoratori, ecc...",
+        technologies: "Java - Spring Boot - Artemis - JPA - Hibernate - Redis Caching - Azure DevOps - JUnit - Karma - Architettura a microservizi",
+        description: "Con il ruolo di Release Manager gestisco un microservizio che legge, converte ed espone dati per applicazioni web dedicate agli operatori INPS",
         url: ""
     },
     {
-        id: 2,
-        name: "Fascicolo Previdenziale Aziende Agricole INTRANET",
+        id: 6,
+        name: "Nuovo SUGI",
         client: "INPS",
         company: "Sistemi Informativi S.r.l.",
         image: InpsLogo,
-        technologies: "Java - Spring MVC - Hibernate - JPA - Database Microsoft SQL - Database DB2 - JBOSS - SOAP - Bootstrap",
-        description: "Analisi, sviluppo, refactoring e porting su Application Server JBoss di un'applicazione DEDICATA AGLI OPERATORI INPS già esistente. L'applicazione consente di consultare diversi dati relativi a prestazioni, cartelle esattoriali, lavoratori, ecc...",
-        url: ""
+        technologies: "Java - Spring Boot - Artemis - JPA - Hibernate - Angular - Guava Cache - Azure DevOps - JUnit - Karma - Architettura a microservizi",
+        description: "Sviluppi BE ed FE per il progetto Nuovo SUGI, una piattaforma che espone API, fornisce interfacce grafiche per cittadini, consulenti ed operatori e gestisce l'invio e la ricezione di messaggi su code Artemis e molto altro ancora.",
+        url: "https://www.inps.it/content/inps-site/it/it/inps-comunica/notizie/dettaglio-news-page.news.2023.11.pnrr-operativo-il-progetto-cambio-ente-pagatore-.html"
     },
     {
-        id: 3,
+        id: 5,
         name: "Casellario Assistenza INTRANET",
         client: "INPS",
         company: "Sistemi Informativi S.r.l.",
@@ -45,6 +35,36 @@ const projectsData = [
     },
     {
         id: 4,
+        name: "Sito Web Pizzeria",
+        client: "-",
+        company: "-",
+        image: pizzeriaImg,
+        technologies: "React - Netlify - Google Places API - Bootstrap",
+        description: "Template per un vero e proprio sito web di una pizzeria.",
+        url: "https://lapizzeriatemplate.netlify.app/",
+    },
+    {
+        id: 3,
+        name: "Cassetto e Fascicolo Previdenziale Autonomi Agricoli",
+        client: "INPS",
+        company: "Sistemi Informativi S.r.l.",
+        image: InpsLogo,
+        technologies: "Java - Spring MVC - Hibernate - JPA - Database Microsoft SQL - Database DB2 - JBOSS - SOAP - Bootstrap",
+        description: "Analisi, sviluppo, refactoring e porting su Application Server JBoss di due applicazioni monolitiche Spring MVC, una per cittadini, consulenti e una per operatori INPS.",
+        url: ""
+    },
+    {
+        id: 2,
+        name: "Cassetto e Fascicolo Previdenziale Aziende Agricole",
+        client: "INPS",
+        company: "Sistemi Informativi S.r.l.",
+        image: InpsLogo,
+        technologies: "Java - Spring MVC - Hibernate - JPA - Database Microsoft SQL - Database DB2 - JBOSS - SOAP - Bootstrap",
+        description: "Analisi, sviluppo, refactoring e porting su Application Server JBoss di due applicazioni monolitiche Spring MVC, una per cittadini, consulenti e una per operatori INPS.",
+        url: ""
+    },
+    {
+        id: 1,
         name: "Beneficiari Ucraina",
         client: "Agenzia Delle Dogane E Dei Monopoli",
         company: "Exolab S.r.l.",
@@ -54,33 +74,13 @@ const projectsData = [
         url: ""
     },
     {
-        id: 5,
+        id: 0,
         name: "OTELLO",
         client: "Agenzia Delle Dogane E Dei Monopoli",
         company: "Exolab S.r.l.",
         image: AdmLogo,
         technologies: "Java - Database Oracle - JSF - Primefaces - MyBatis",
         description: "Sviluppo di un'applicazione per viaggiatori che consente agli utenti di ottenere il rimborso dell'IVA sui beni acquistati.",
-        url: ""
-    },
-    {
-        id: 6,
-        name: "Nuovo SUGI",
-        client: "INPS",
-        company: "Sistemi Informativi S.r.l.",
-        image: InpsLogo,
-        technologies: "Java - Spring Boot - Artemis - JPA - Hibernate - Angular - Guava Cache - Azure DevOps - JUnit - Karma - Architettura a microservizi",
-        description: "Sviluppi BE ed FE per il progetto Nuovo SUGI, una grande piattaforma che consente espone alle prestazioni API, Maschere FE ed eventi Message Broker per poter gestire molto velocemente i pagamenti.",
-        url: "https://www.inps.it/content/inps-site/it/it/inps-comunica/notizie/dettaglio-news-page.news.2023.11.pnrr-operativo-il-progetto-cambio-ente-pagatore-.html"
-    },
-    {
-        id: 7,
-        name: "Microservizio Dati Pensioni",
-        client: "INPS",
-        company: "Sistemi Informativi S.r.l.",
-        image: InpsLogo,
-        technologies: "Java - Spring Boot - Artemis - JPA - Hibernate - Redis Caching - Azure DevOps - JUnit - Karma - Architettura a microservizi",
-        description: "Sviluppi BE di un microservizio che legge, converte ed espone dati per diverse applicazioni FE per operatori INPS",
         url: ""
     },
 ]

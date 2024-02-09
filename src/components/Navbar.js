@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { CHISONO_TAB, CONTATTI_TAB, ESPERIENZE_TAB } from '../utilities/Constants';
+import { CHISONO_TAB, CONTATTI_TAB, ESPERIENZE_TAB, PROGETTI_TAB } from '../utilities/Constants';
 import ProfilePicture from '../assets/img/profile_picture.jpg';
 
 const NavBar = ({ activeItem }) => {
@@ -23,7 +23,7 @@ const NavBar = ({ activeItem }) => {
                 </Link>
                 <div className="navbar-collapse justify-content-center">
                     <div className="mt-2 text-center row d-flex w-100">
-                        <div className="col-sm-4">
+                        <div className="col-sm-3">
                             <Link
                                 className={`btn btn-primary rounded btn-lg me-lg-2 mb-2 mb-lg-0 button-primary-pers shadow-lg ${activeItem === ESPERIENZE_TAB ? 'nav-active' : ''
                                     }`}
@@ -33,7 +33,17 @@ const NavBar = ({ activeItem }) => {
                                 Lavoro
                             </Link>
                         </div>
-                        <div className="col-sm-4">
+                        <div className="col-sm-3">
+                            <Link
+                                className={`btn btn-primary rounded btn-lg me-lg-2 mb-2 mb-lg-0 button-primary-pers shadow-lg ${activeItem === PROGETTI_TAB ? 'nav-active' : ''
+                                    }`}
+                                aria-current={activeItem === PROGETTI_TAB ? 'page' : undefined}
+                                to="/projects"
+                            >
+                                Progetti
+                            </Link>
+                        </div>
+                        <div className="col-sm-3">
                             <Link
                                 className={`btn btn-primary rounded btn-lg me-lg-2 mb-2 mb-lg-0 button-primary-pers shadow-lg ${activeItem === CHISONO_TAB ? 'nav-active' : ''
                                     }`}
@@ -43,7 +53,7 @@ const NavBar = ({ activeItem }) => {
                                 Chi Sono
                             </Link>
                         </div>
-                        <div className="nav-item col-sm-4">
+                        <div className="nav-item col-sm-3">
                             <Link
                                 className={`btn btn-primary rounded btn-lg navbar-text button-primary-pers shadow-lg ${activeItem === CONTATTI_TAB ? 'nav-active' : ''
                                     }`}

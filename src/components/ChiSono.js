@@ -5,7 +5,7 @@ const ChiSono = () => {
   return (
     <>
       <NavBar activeItem={CHISONO_TAB} />
-      <section className="section">
+      <section className="section" style={{minHeight: '50vh'}}>
         <div className="container">
           <div className="row mt-4 mb-4">
             <div className="col-lg-8 offset-lg-2">
