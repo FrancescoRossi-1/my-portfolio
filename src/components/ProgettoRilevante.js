@@ -21,13 +21,13 @@ const ProgettoRilevante = () => {
           </div>
           <div className="col-sm-12 col-lg-6 d-flex justify-content-center pt-2 pb-2 colore-primario">
             <ProjectCard
-              name={projectArray[6].name}
-              client={projectArray[6].client}
-              company={projectArray[6].company}
-              image={projectArray[6].image}
-              technologies={projectArray[6].technologies}
-              description={projectArray[6].description}
-              url={projectArray[6].url}
+              name={projectArray[1].name}
+              client={projectArray[1].client}
+              company={projectArray[1].company}
+              image={projectArray[1].image}
+              technologies={projectArray[1].technologies}
+              description={projectArray[1].description}
+              url={projectArray[1].url}
             />
           </div>
         </div>
