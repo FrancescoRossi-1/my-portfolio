@@ -4,13 +4,23 @@ import AdmLogo from '../assets/img/logo_adm.png'
 
 const projectsData = [
     {
+        id: 8,
+        name: "Cassetto Artigiani e Commercianti",
+        client: "INPS",
+        company: "Sistemi Informativi S.r.l.",
+        image: InpsLogo,
+        technologies: "Java - Spring Boot - JPA - Hibernate - Redis Caching - Azure DevOps - JUnit - Architettura a microservizi",
+        description: "In fase di analisi.",
+        url: ""
+    },
+    {
         id: 7,
         name: "Microservizio Dati Pensioni",
         client: "INPS",
         company: "Sistemi Informativi S.r.l.",
         image: InpsLogo,
-        technologies: "Java - Spring Boot - Artemis - JPA - Hibernate - Redis Caching - Azure DevOps - JUnit - Karma - Architettura a microservizi",
-        description: "Con il ruolo di Release Manager gestisco un microservizio che legge, converte ed espone dati per applicazioni web dedicate agli operatori INPS",
+        technologies: "Java - Spring Boot - JPA - Hibernate - Redis Caching - Azure DevOps - JUnit - Architettura a microservizi - DB2",
+        description: "Con il ruolo di Release Manager gestisco un microservizio che legge, converte ed espone dati di pensioni per applicazioni web dedicate agli operatori INPS.",
         url: ""
     },
     {
