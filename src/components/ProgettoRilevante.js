@@ -12,8 +12,7 @@ const ProgettoRilevante = () => {
             <div className="text-center">
               <h3 className="text-white">Progetto rilevante</h3>
               <p className="text-white">
-                Esplora il mio lavoro più recente. Grazie alle ultime tecnologie disponibili sul mercato, INPS ha deciso di creare un portale che possono usare sia i cittadini che tutte le prestazioni. Il portale SUGI è in grado di semplificare molti processi.
-              </p>
+                Esplora il mio lavoro più rilevante.</p>
             </div>
           <Link className="btn btn-primary rounded btn-lg me-lg-2 mb-2 mb-lg-0 button-secondary-pers shadow-lg" to="/projects">
             <FaProjectDiagram/> Visualizza tutti
