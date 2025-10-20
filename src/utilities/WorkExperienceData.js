@@ -1,4 +1,4 @@
-import LogoSistInf from '../assets/img/Logo SI_AnIBM.jpg';
+import LogoSistInf from '../assets/img/Logo SI_AnIBM.png';
 import LogoExo from '../assets/img/exolab-logo.png'
 
 const workExperienceData = [
