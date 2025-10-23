@@ -24,7 +24,7 @@ const News = () => {
       title: "Partecipazione al Pilot di Watson Code Assistant for Z",
       description:
         "Coinvolto nel pilot IBM WCA4Z, soluzione basata su AI generativa per supportare la modernizzazione del codice su mainframe in un importante ente della Pubblica Amministrazione.",
-      date: "Settembre 2025",
+      date: "Aprile 2024",
       color: "accent",
     },
   ];
