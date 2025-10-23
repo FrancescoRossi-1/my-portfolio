@@ -1,73 +1,34 @@
-# Welcome to your Lovable project
+# 🌐 Francesco Rossi — Portfolio Personale
 
-## Project info
+Benvenuto nel mio spazio professionale online.  
+Questo sito raccoglie il mio percorso come **Software Engineer** e **Team Leader**, le esperienze maturate in ambito **enterprise** e i progetti personali più significativi.
 
-**URL**: https://lovable.dev/projects/6592ab68-4373-4be7-9350-101c2439cf0c
+---
 
-## How can I edit this code?
+## ✨ Panoramica
 
-There are several ways of editing your application.
+Il portfolio nasce con l’obiettivo di presentare in modo chiaro e moderno:
+- le mie **competenze tecniche** e aree di specializzazione,
+- i **progetti professionali e personali** più rilevanti,
+- i **traguardi formativi** come certificazioni e hackathon,
+- e una sezione dedicata ai **contatti professionali**.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6592ab68-4373-4be7-9350-101c2439cf0c) and start prompting.
+## 🧠 Contenuti principali
 
-Changes made via Lovable will be committed automatically to this repo.
+- **About** — biografia professionale, visione e valori  
+- **Experience** — esperienze lavorative e competenze chiave  
+- **Projects** — una selezione di lavori, proof of concept e prototipi  
+- **News** — riconoscimenti, certificazioni e iniziative recenti  
+- **Contact** — canali diretti per entrare in contatto
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📍 Visita il sito
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+👉 [**francescorossi-portfolio.it**](https://francescorossi-portfolio.it)
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6592ab68-4373-4be7-9350-101c2439cf0c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+> _Un progetto personale nato per unire passione, competenza e continua evoluzione._
