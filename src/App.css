@@ -1,107 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
 .logo {
-  width: 15rem;
-  transition: transform 0.5s;
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
-
 .logo:hover {
-  transform: rotate(5deg);
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@media (max-width: 768px) {
-  .logo:active {
-    transform: none;
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
-.button-primary-pers {
-  color: #27374D !important;
-  font-weight: bold !important;
-  background-color: white!important;
-  border: 1px solid #17202d !important;
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
 }
 
-.button-primary-pers:hover {
-  color:white;
-  background-color: #17202d!important;
+.card {
+  padding: 2em;
 }
 
-.button-secondary-pers {
-  color: white !important;
-  font-weight: bold !important;
-  background-color: #27374D!important;
-  border: 1px solid #17202d !important;
-}
-
-.button-secondary-pers:hover {
-  color: #27374D;
-  background-color: #17202d!important;
-}
-
-.nav-active {
-  color:white !important;
-  background-color: #17202d!important;
-}
-
-.company-logo {
-  width: 15rem !important;
-}
-
-.project-logo {
-  max-height: 8rem !important;
-  max-width: 12rem !important;
-  object-fit: cover; 
-}
-
-.text-primary-pers {
-  font-size: 1.2rem;
-  color: #27374D;
-  font-weight: 500;
-}
-
-/* COLORI */
-.colore-primario {
-  background-color: #27374D !important;
-}
-
-.colore-secondario {
-  background-color: #526D82 !important;
-}
-
-.colore-terziario {
-  background-color: #9DB2BF !important;
-}
-
-.project-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 20px;
-  background-color: white;
-  width: 80%;
-  margin: auto;
-}
-
-.project-info {
-  text-align: left;
-}
-
-.project-title {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.project-details {
-  margin-bottom: 5px;
-}
-
-.project-description {
-  margin-bottom: 10px;
-}
-
-.project-link {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: bold;
+.read-the-docs {
+  color: #888;
 }

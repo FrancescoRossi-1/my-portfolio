@@ -1,25 +1,73 @@
-# Portfolio Personale
+# Welcome to your Lovable project
 
-Benvenuto nel mio portfolio personale! Questo progetto è stato creato utilizzando React e ospitato su Netlify.
+## Project info
 
-## Descrizione
+**URL**: https://lovable.dev/projects/6592ab68-4373-4be7-9350-101c2439cf0c
 
-Questo portfolio è stato progettato per mostrare le mie competenze, esperienze lavorative, progetti e altre informazioni pertinenti che potrebbero interessare i visitatori.
+## How can I edit this code?
 
-## Caratteristiche
+There are several ways of editing your application.
 
-- **Design Reattivo**: Il portfolio è stato sviluppato con un design reattivo per garantire un'esperienza utente ottimale su una vasta gamma di dispositivi, dalle grandi schermate desktop ai dispositivi mobili.
-- **Navigazione Intuitiva**: La navigazione è stata progettata in modo intuitivo per consentire ai visitatori di trovare facilmente le informazioni desiderate.
-- **Sezione Progetti**: Una sezione dedicata ai miei progetti passati e attuali, con dettagli su ciascun progetto.
-- **Esperienze Lavorative**: Una panoramica delle mie esperienze lavorative passate e attuali, con dettagli sui ruoli e sulle responsabilità.
+**Use Lovable**
 
-## Come Utilizzare
+Simply visit the [Lovable Project](https://lovable.dev/projects/6592ab68-4373-4be7-9350-101c2439cf0c) and start prompting.
 
-Il portfolio è già ospitato su Netlify, quindi puoi semplicemente visitare il sito [qui](https://francescorossi-portfolio.it/) per esplorarlo.
+Changes made via Lovable will be committed automatically to this repo.
 
-## Contributi
+**Use your preferred IDE**
 
-Se desideri contribuire a questo progetto, sentiti libero di aprire una pull request. Sono sempre aperto a miglioramenti e suggerimenti!
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-Grazie per aver visitato il mio portfolio!
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/6592ab68-4373-4be7-9350-101c2439cf0c) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
