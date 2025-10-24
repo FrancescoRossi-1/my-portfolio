@@ -22,7 +22,7 @@ const Hero = () => {
           <div className="relative group animate-fade-in">
             <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary rounded-full blur-xl opacity-50 group-hover:opacity-75 transition-smooth" />
             <img
-              src="profile.jpg"
+              src="profile_francesco.jpg"
               alt="Francesco Rossi"
               className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full object-cover border-4 border-primary/50 shadow-elegant"
             />
